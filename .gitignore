@@ -1,0 +1,36 @@
+# -*- mode: gitignore; visual-wrap-column: 80; -*-
+
+# Mac-specific things to ignore:
+# .............................................................................
+
+.DS_Store
+
+# Emacs-specific things to ignore:
+# .............................................................................
+
+*~
+.#*
+.git/COMMIT_EDITMSG
+auto
+*.synctex.gz
+
+# LaTeX-specific things to ignore:
+# .............................................................................
+
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.loc
+*.mp
+texput.log
+
+# Things specific to this directory.
+# .............................................................................
+
+main.pdf
+main.info
+all-bib.pdf
+main.rel
