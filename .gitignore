@@ -34,3 +34,12 @@ main.pdf
 main.info
 all-bib.pdf
 main.rel
+
+# The following must be created by symlinks by the user, so we ignore them
+# in git.
+
+literature.bib
+packages-table.tex
+resources
+sbml-msb.bst
+sbml-paper.cls
