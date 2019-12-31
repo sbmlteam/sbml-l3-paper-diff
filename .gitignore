@@ -30,10 +30,8 @@ texput.log
 # Things specific to this directory.
 # .............................................................................
 
-main.pdf
-main.info
-all-bib.pdf
-main.rel
+diff.tex
+diff.pdf
 
 # The following must be created by symlinks by the user, so we ignore them
 # in git.
