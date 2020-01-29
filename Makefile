@@ -123,7 +123,7 @@ diff:
 	-rm -f *.aux
 	latexdiff $(latexdiff-flags) $(previous-main) $(latest-main) > $(output-file)
 	sed -i.bak -e 's/RED/red/g' -e 's/BLUE/blue/g' \
-		   -e 's/1,0,0/1,.4,.4/g' -e 's/0,0,1/.1,0,.7/g' \
+		   -e 's/1,0,0/1,.5,.5/g' -e 's/0,0,1/.1,0,.8/g' \
 		   -e 's/\\DIFdel{Programming libraries help to }\\DIFdelend//' \
 		   -e 's/\\DIFdel{is a pure-Java based implementation/\\DIFdel{/' \
 		   -e 's/\\sf //g' $(output-file)
